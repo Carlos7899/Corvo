@@ -1,0 +1,78 @@
+/* estilo.css */
+/* estilo.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    flex: 1 0 auto;  /* Permitir que o corpo se expanda para preencher o espaço disponível */
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    flex-shrink: 0;  /* Impedir que o rodapé encolha se houver muito conteúdo acima dele */
+}
+ 
+.logo-nav {
+    width: 90px ;
+    height: 90px;
+}
+
+.logo-header {
+    width: 220px;
+    height: auto;
+    margin-bottom: 20px;
+   
+}
+
+#email{
+    font-size:medium;
+    margin-right: 5px;
+    color: #fff;
+}
+.text{
+
+    color: rgb(210, 222, 211);
+
+}
+
+.title {
+    font-size: 2.5em; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Faz o título ficar em negrito */
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.image-container {
+    max-width: 800px; /* Ajuste este valor para o tamanho máximo desejado */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  
+  
+}
+
+
+
+body{
+
+    background-color: rgb(249, 249, 249)
+}
+
+
+
+
